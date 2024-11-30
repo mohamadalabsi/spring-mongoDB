@@ -14,6 +14,7 @@ import java.util.Collection;
 //@NoArgsConstructor
 //@AllArgsConstructor
 @Document(collection = "jobPost") // this is like entity for SQL DB
+
 public class Post {
     private String profile;
     private String desc;
